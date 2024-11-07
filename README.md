@@ -1,4 +1,5 @@
-Contains a script to get seminars from InspireHEP and write the to a file. 
+Contains a script to get seminars from the InspireHEP API and write them to an ics file.
+
 Usage
 
 ```
