@@ -81,14 +81,6 @@ if __name__ == "__main__":
 
     inspire_url = "https://inspirehep.net/api/seminars"
 
-    # choice = input("Press 0 for Dalitz, 1 for TPP: ")    
-    # if choice == "0":
-    #     params    = {"start_date": "upcoming", "q": 'series.name:"Oxford Dalitz Seminar in Fundamental Physics"'}
-    #     save_name = "INSPIRE-Seminars-Dalitz.ics"
-    # else:
-    #     params    = {"start_date": "upcoming", "q": 'series.name:"Oxford Theoretical Particle Physics seminar"'}
-    #     save_name = "INSPIRE-Seminars-TPP.ics"
-
     hits = []
     for seminar_name in args.seminar_names:
 
